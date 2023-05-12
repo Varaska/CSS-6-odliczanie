@@ -1,18 +1,81 @@
-div {
-    
+div.container {
+
     width: 550px;
     height: 250px;
     background-color: black;
     color: aliceblue;
-    align-content: center;
-    text-align: center;
-    
+
+
+    position: relative;
+
 }
 
 .item {
-    
+
+    animation-name: odliczanie;
+
     font-size: 120px;
-    align-content: center;
+    animation-duration: 1s;
+    position: absolute;
+    /* środkuję osie */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+
+@keyframes odliczanie {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        
+    }
+    100% {
+        opacity: 0;
+       
+    }
+
+ 
+
    
 }
 
+.item_10 {
+    animation-delay: 1s;
+}
+
+.item_9 {
+    animation-delay: 2s;
+}
+
+.item_8 {
+    animation-delay: 3s;
+}
+
+.item_7 {
+    animation-delay: 4s;
+}
+.item_6 {
+    animation-delay: 5s;
+}
+.item_5 {
+    animation-delay: 6s;
+}
+.item_4 {
+    animation-delay: 7s;
+}
+.item_3 {
+    animation-delay: 8s;
+}
+.item_2 {
+    animation-delay: 9s;
+}
+.item_1 {
+    animation-delay: 10s;
+}
