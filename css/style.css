@@ -79,3 +79,18 @@ div.container {
 .item_1 {
     animation-delay: 10s;
 }
+.item_0 {
+    animation-delay: 11s;
+  /*   width: 550px; */
+    height: 100%;
+    /* text-align: center; */
+    margin:auto;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+img {
+    display: block;
+    height: 250px;
+}
