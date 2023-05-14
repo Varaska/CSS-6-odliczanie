@@ -36,6 +36,7 @@ div.container {
         opacity: 1;
         
     }
+  
     100% {
         opacity: 0;
        
@@ -94,3 +95,10 @@ img {
     display: block;
     height: 250px;
 }
+
+.item_00 {
+    animation-delay: 12s;
+    font-size: 50px;
+    
+}
+
